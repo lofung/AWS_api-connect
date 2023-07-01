@@ -1,0 +1,27 @@
+﻿<h4>Search for Movies</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResults">
+            <div class="form-group">
+                <label for="SearchTitle" class="control-label">Title</label>
+                <input name="SearchTitle" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="SearchRating" class="control-label">Rating more than..</label>
+                <input name="SearchRating" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="SearchGenre" class="control-label">Genre</label>
+                <input name="SearchGenre" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,20 @@
+
+{
+    "region" : "ca-central-1",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "LAUassignment3",
+    "environment"    : "LAUassignment3-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0e32bbab0c39e8ce8\";\"aws:ec2:vpc,Subnets\"=\"subnet-08f5de886e1685ce5\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.5.4 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "lauassignment3-dev",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "jekinstest",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
